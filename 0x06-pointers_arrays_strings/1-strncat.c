@@ -2,7 +2,7 @@
 
 /**
  * _strncat -concatenaate two stings
- * using at mst n bytes from src
+ * using at most n bytes from src
  * @dest: input value
  * @src: input value
  * @n: imput value
