@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat -concatenaate two stings
+ * _strncat - concatenate two stings
  * using at most n bytes from src
  * @dest: input value
  * @src: input value
