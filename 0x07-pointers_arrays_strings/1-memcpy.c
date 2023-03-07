@@ -6,17 +6,17 @@
  * @src: memory copied from
  * @dest: memory stored to
  *
- * Retun: dest
+ * Return: copied memory with n byte
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int p = 0;
-	int r = n;
+	int r = 0;
+	int i = n;
 
-	for (; p < r; n++)
+	for (; r < i; n++)
 	{
-		dest[p] = src[p];
+		dest[r] = src[r];
 		n--;
 	}
 	return (dest);
